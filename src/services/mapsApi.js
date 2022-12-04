@@ -5,7 +5,7 @@ const config = {
         "Access-Control-Allow-Origin": "*",
     },
 }
-const apiKeyStr = '&key=' + 'AIzaSyBS3nuC6YQbHJCIWmYHaqSlXvVXf5tXdlE'
+const apiKeyStr = '&key=' + ''
 const baseUrl = "https://maps.googleapis.com/maps/api/geocode/json"
 
 function getAddress(lat, long) {

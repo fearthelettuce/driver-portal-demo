@@ -12,7 +12,7 @@
             <input :value="driverPasswordInput" name="driverCredentialInput" type="text" />
         </div>
         <div>
-            <button @click="login">Next</button>
+            <button @click="login">Login</button>
             
         </div>
         <div><router-link to="/home">Skip Login</router-link></div>
@@ -90,6 +90,11 @@ input {
     border: none;
 }
 button {
-    font-size: inherit;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
 }
 </style>

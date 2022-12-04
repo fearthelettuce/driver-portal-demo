@@ -18,5 +18,3 @@ axios(config)
 
 
 // The Business Profile must have the Place type car_dealer
-
-// key=API_KEY AIzaSyBS3nuC6YQbHJCIWmYHaqSlXvVXf5tXdlE
