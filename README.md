@@ -1,41 +1,4 @@
-# driver-portal-demo
+driver-portal-demo
+This is a prototype of a site to coordinate fleet deliveries.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+There are a number of steps that need to occur to prepare a vehicle to be delivered to a fleet driver. This site uses mock data to simulate some of these scenarios. Ultimately, once all necessary steps are completed, this site allows the user to schedule a pickup or delivery of the vehicle. These appointments are tracked by dealership across all drivers, and the system prevents overlapping appointments.
